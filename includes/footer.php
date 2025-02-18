@@ -15,7 +15,7 @@
                 <p class="mb-0 py-4" style="font-size: 0.75rem; color: #6c757d;">
                     Website created by 
                     <a class="text-secondary fw-bold" href="https://poutechnologies.com" target="_blank">Pou Technologies</a>.
-                    version 1.0.0
+                    version 1.0.3
                 </p>
 
 

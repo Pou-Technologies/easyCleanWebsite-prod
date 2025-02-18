@@ -1,0 +1,353 @@
+:root {
+    --primary-color: #abdddc;
+    --secondary-color: #4CAF50;
+    --text-color: #6c757d;
+    --white: #fff;
+    --black: #000;
+    --error-color: #ff6f61;
+    --font-family: "Poppins", serif;
+}
+
+/* Estilos generales */
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family);
+    font-weight: 100;
+}
+
+p {
+    font-family: var(--font-family);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/images/general/hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 15px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: url('/images/general/secondHer.png');
+        padding: 50px 10px;
+        min-height: 80vh;
+    }
+    .hero h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 120px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 80px;
+    }
+    .navbar-nav {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .nav-link {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+/* Footer */
+footer a:hover {
+    color: var(--primary-color);
+}
+
+footer i {
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    footer i {
+        font-size: 1.5rem;
+    }
+}
+
+/* Services */
+.service-card {
+    border: none;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-card-text {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+    .service-image {
+        height: 150px;
+    }
+    .service-card-title {
+        font-size: 1.2rem;
+    }
+    .service-card-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Contact Section */
+.contact-hero {
+    background-image: url('/images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -40px;
+}
+
+@media (max-width: 768px) {
+    .contact-hero {
+        height: 20vh;
+    }
+    .contact-form {
+        margin-top: 0;
+        padding: 15px;
+    }
+}
+
+/* Error Page */
+.error-container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.error-icon {
+    font-size: 5rem;
+    color: var(--error-color);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* FAQs */
+.faq-header {
+    background: linear-gradient(45deg, #da81e2, #40c1ca);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 15px;
+    border-radius: 20px;
+}
+
+.faq-card {
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+@media (max-width: 768px) {
+    .faq-header {
+        padding: 30px 10px;
+    }
+    .faq-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Why Choose Us */
+.custom-icon {
+    color: var(--primary-color) !important;
+}
+
+/* Buttons */
+.btn-custom {
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .btn-custom {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Cookie Banner */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: var(--white);
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.cookie-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cookie-message {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.cookie-message strong {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cookie-link {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.cookie-link:hover {
+    color: #45a049;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.cookie-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.cookie-button.accept {
+    background: var(--secondary-color);
+    color: var(--white);
+}
+
+.cookie-button.accept:hover {
+    background: #45a049;
+}
+
+.cookie-button.decline {
+    background: #f44336;
+    color: var(--white);
+}
+
+.cookie-button.decline:hover {
+    background: #e53935;
+}
+
+
+/*Mobile btn*/
+@media (max-width: 768px) {
+    .mobile-white-btn {
+        color: white !important;
+        border-color: white !important;
+    }
+
+    .mobile-white-btn:hover {
+        background-color: white !important;
+        color: #333 !important;
+    }
+}
+
+/* Estilos para móviles y tablets pequeñas (hasta 767px) */
+@media (max-width: 767px) {
+    .mobile-white-btn {
+        color: white !important;
+        border-color: white !important;
+    }
+
+    .mobile-white-btn:hover {
+        background-color: white !important;
+        color: #333 !important;
+    }
+}

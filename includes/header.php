@@ -88,8 +88,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link text-secondary" href="../index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-secondary" href="/views/services.php">Services</a></li>
-                <li class="nav-item"><a class="nav-link text-secondary" href="/views/contact.php">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary" href="/services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary" href="/contact">Contact</a></li>
                 <li class="nav-item"><a class="nav-link text-secondary" href="/about">About</a></li>
             </ul>
         </div>

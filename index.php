@@ -15,7 +15,7 @@ include 'includes/header.php';
 
                 <div class="d-flex gap-3 flex-wrap"> <!-- Contenedor para los botones con espacio entre ellos -->
                     <a href="/views/contact.php" class="btn btn-light btn-lg text-secondary">Contact Us</a>
-                    <a href="/views/services" class="btn btn-outline-light btn-lg text-secondary mobile-white-btn">View Services</a>
+                    <a href="/services" class="btn btn-outline-light btn-lg text-secondary mobile-white-btn">View Services</a>
                 </div>
 
             </div>

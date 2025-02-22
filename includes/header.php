@@ -90,7 +90,7 @@
                 <li class="nav-item"><a class="nav-link text-secondary" href="../index.php">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-secondary" href="/views/services.php">Services</a></li>
                 <li class="nav-item"><a class="nav-link text-secondary" href="/views/contact.php">Contact</a></li>
-                <li class="nav-item"><a class="nav-link text-secondary" href="/views/about.php">About</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary" href="/views/about">About</a></li>
             </ul>
         </div>
     </div>

@@ -224,7 +224,7 @@ include '../includes/header.php';
     <div class="container">
         <h2 class="mb-4 text-secondary" style="font-size: 2.5rem;">Looking for Special Services?</h2>
         <p class="lead mb-4" style="font-size: 1rem; color: #555;">Join us in making your space shine!</p>
-        <a href="/views/contact.php" class="btn btn-outline-secondary btn-lg btn-custom">Contact Us</a>
+        <a href="/contact" class="btn btn-outline-secondary btn-lg btn-custom">Contact Us</a>
     </div>
 </section>
 

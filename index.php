@@ -14,7 +14,7 @@ include 'includes/header.php';
                 <p class="lead mb-4 text-start  py-1">Your trusted partner for professional cleaning services.</p>
 
                 <div class="d-flex gap-3 flex-wrap"> <!-- Contenedor para los botones con espacio entre ellos -->
-                    <a href="/views/contact.php" class="btn btn-light btn-lg text-secondary">Contact Us</a>
+                    <a href="/contact" class="btn btn-light btn-lg text-secondary">Contact Us</a>
                     <a href="/services" class="btn btn-outline-light btn-lg text-secondary mobile-white-btn">View Services</a>
                 </div>
 
@@ -48,7 +48,7 @@ include 'includes/header.php';
                 <p class="text-muted">Ensure a fresh start with our move-in and move-out cleaning services.</p>
             </div>
         </div>
-        <a href="/views/services.php" class="btn btn-outline-secondary">Learn More About Our Services</a>
+        <a href="/services" class="btn btn-outline-secondary">Learn More About Our Services</a>
     </div>
 </section>
 
@@ -101,7 +101,7 @@ include 'includes/header.php';
                         </div>
                     </li>
                 </ul>
-                <a href="/views/about.php" class=" btn btn-outline-secondary ms-5">Learn More About Us</a>
+                <a href="/about" class=" btn btn-outline-secondary ms-5">Learn More About Us</a>
             </div>
         </div>
     </div>
@@ -155,7 +155,7 @@ include 'includes/header.php';
     <div class="container">
         <h2 class="mb-4 text-secondary" style="font-size: 3.0rem;">Ready to Be Part of the Clean Revolution?</h2>
         <p class="lead mb-4" style="font-size: 1.2rem; color: #555;">Join us in making your space shine! Whether it's for your home or business, we're here to deliver the best cleaning services with care and dedication.</p>
-        <a href="/views/contact.php" class="btn btn-outline-secondary btn-lg btn-custom">Contact Us</a>
+        <a href="/contact" class="btn btn-outline-secondary btn-lg btn-custom">Contact Us</a>
     </div>
 </section>
 
@@ -169,7 +169,7 @@ include 'includes/header.php';
         <div class="cookie-content">
             <p class="cookie-message">
                 <strong>We care about your privacy</strong><br>
-                This website uses cookies that are needed for the site to work properly and to get data on how you interact with it, as well as for marketing purposes. By accepting, you agree to the use of cookies for ads and analytics as described in our <a href="/views/privacy.php" target="_blank" class="cookie-link">Cookie Policy</a>.
+                This website uses cookies that are needed for the site to work properly and to get data on how you interact with it, as well as for marketing purposes. By accepting, you agree to the use of cookies for ads and analytics as described in our <a href="/privacy" target="_blank" class="cookie-link">Cookie Policy</a>.
             </p>
             <div class="cookie-buttons">
                 <button id="accept-cookies" class="cookie-button accept">Accept</button>

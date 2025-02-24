@@ -5,11 +5,11 @@
             <div class="col-md-6 mb-3">
                 <h5 class="fw-bold text-secondary">Easy Clean</h5>
                 <div class="d-flex">
-                    <a href="/errors/503.php" class="text-secondary text-decoration-none me-3">FAQs</a>
+                    <a href="/503" class="text-secondary text-decoration-none me-3">FAQs</a>
                     <span class="text-secondary mx-2">|</span>
-                    <a href="/views/privacy.php" class="text-secondary text-decoration-none me-3">Privacy</a>
+                    <a href="/privacy" class="text-secondary text-decoration-none me-3">Privacy</a>
                     <span class="text-secondary mx-2">|</span>
-                    <a href="/views/copyright.php" class="text-secondary text-decoration-none">Copyright © 2025 Easy Clean. All rights reserved.</a>
+                    <a href="/copyright" class="text-secondary text-decoration-none">Copyright © 2025 Easy Clean. All rights reserved.</a>
                 </div>
                 
                 <p class="mb-0 py-4" style="font-size: 0.75rem; color: #6c757d;">

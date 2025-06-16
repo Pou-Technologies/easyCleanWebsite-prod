@@ -62,6 +62,17 @@
       gtag('config', 'G-HHVMFFGD7J');
     </script>
 
+    
+  <!-- Google tag Pou Tech(gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX65LCGWFB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZX65LCGWFB');
+  </script>
+
     <!-- SweetAlert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Google Fonts -->

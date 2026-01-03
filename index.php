@@ -1,5 +1,30 @@
 <!-- Heater -->
 <?php
+// Simple Router for Local Development
+$request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$routes = [
+    '/contact' => 'views/contact.php',
+    '/services' => 'views/services.php',
+    '/about' => 'views/about.php',
+    '/privacy' => 'views/privacy.php',
+    '/copyright' => 'views/copyright.php',
+    '/503' => 'views/faqs.php',
+    '/documentation' => 'views/documentation.php'
+];
+
+if (array_key_exists($request_uri, $routes)) {
+    // Determine the view file path
+    $view_file = $routes[$request_uri];
+    
+    // Check if file exists before including
+    if (file_exists($view_file)) {
+        // Change directory to 'views' so relative includes inside the view work correctly
+        chdir('views');
+        require basename($view_file);
+        exit;
+    }
+}
+
 $pageTitle = "Easy Clean"; // Define el título de la página
 include 'includes/header.php';
 ?>

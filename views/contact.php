@@ -6,19 +6,21 @@ include '../includes/header.php';
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
 <script>
-   function onSubmit(token) {
-     document.getElementById("contactForm").submit();
-   }
+    function onSubmit(token) {
+        document.getElementById("contactForm").submit();
+    }
 </script>
 
 <body>
-    <section class="hero" style="background-image: url('/images/general/bg.png'); background-size: cover; background-position: center;">
+    <section class="hero"
+        style="background-image: url('/images/general/bg.png'); background-size: cover; background-position: center;">
         <div class="container h-100 d-flex flex-column justify-content-center py-5">
             <!-- Hero Section -->
             <section class="contact-hero text-center">
                 <div class="container">
                     <h1 class="mb-4">Contact Us</h1>
-                    <p class="lead text-secondary">We'd love to hear from you! Get in touch for inquiries, questions, or feedback.</p>
+                    <p class="lead text-secondary">We'd love to hear from you! Get in touch for inquiries, questions, or
+                        feedback.</p>
                 </div>
             </section>
 
@@ -33,19 +35,23 @@ include '../includes/header.php';
                                         <div class="row gy-3">
                                             <div class="col-md-6 col-12">
                                                 <label for="firstName" class="form-label">First Name</label>
-                                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                                                <input type="text" class="form-control" id="firstName" name="firstName"
+                                                    placeholder="Enter your first name" required>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <label for="lastName" class="form-label">Last Name</label>
-                                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                                                <input type="text" class="form-control" id="lastName" name="lastName"
+                                                    placeholder="Enter your last name" required>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <label for="phone" class="form-label">Phone</label>
-                                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                                <input type="tel" class="form-control" id="phone" name="phone"
+                                                    placeholder="Enter your phone number" required>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <label for="email" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                                                <input type="email" class="form-control" id="email" name="email"
+                                                    placeholder="Enter your email" required>
                                             </div>
                                             <div class="col-12">
                                                 <label for="service" class="form-label">Service</label>
@@ -53,47 +59,42 @@ include '../includes/header.php';
                                                     <option value="" disabled selected>Select a service</option>
                                                     <option value="Business Cleaning">Business Cleaning</option>
                                                     <option value="Deep Cleaning">Deep Cleaning</option>
-                                                    <option value="Move In/Move Out Cleaning">Move In/Move Out Cleaning</option>
-                                                    <option value="Weekly/Biweekly Cleaning">Weekly/Biweekly Cleaning</option>
-                                                    <option value="Additional Cleaning Services">Additional Cleaning Services</option>
+                                                    <option value="Move In/Move Out Cleaning">Move In/Move Out Cleaning
+                                                    </option>
+                                                    <option value="Weekly/Biweekly Cleaning">Weekly/Biweekly Cleaning
+                                                    </option>
+                                                    <option value="Additional Cleaning Services">Additional Cleaning
+                                                        Services</option>
                                                 </select>
                                             </div>
                                             <div class="col-12">
                                                 <label for="message" class="form-label">How can we help you?</label>
-                                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                                <textarea class="form-control" id="message" name="message" rows="5"
+                                                    placeholder="Write your message here..." required></textarea>
                                             </div>
-                                            
-                                            
+
+
                                             <!-- Aceptar términos y condiciones -->
                                             <div class="col-12">
                                                 <div class="form-check">
-                                                    
+
                                                     <label class="form-check-label" for="acceptTerms">
-                                                    <input class="form-check-input" type="checkbox" id="acceptTerms" required>
-                                                        I accept the <a href="privacy.php" target="_blank">terms and conditions</a>
+                                                        <input class="form-check-input" type="checkbox" id="acceptTerms"
+                                                            required>
+                                                        I accept the <a href="/privacy" target="_blank">terms and
+                                                            conditions</a>
                                                     </label>
                                                 </div>
                                             </div>
-                                            
+
                                             <!-- Botón de envío -->
-                                            <!-- <div class="col-12">
-                                                <button 
-                                                    data-sitekey="6LeSOMYqAAAAAN28MBDLyxJYqjCaurDO5T7uAbMo"
-                                                    data-callback='onSubmit'
-                                                    type="submit" 
-                                                    class="btn btn-secondary px-4 py-2"
-                                                    data-action="submit">
-                                                    Send Message
-                                                </button>
-                                            </div> -->
                                             <div class="col-12">
-                                                <button class="g-recaptcha btn-custom px-4 py-2" 
-                                                    data-sitekey="6LeSOMYqAAAAAN28MBDLyxJYqjCaurDO5T7uAbMo" 
-                                                    data-callback='onSubmit' 
-                                                    data-action='submit'>Submit
+                                                <button class="g-recaptcha btn-custom px-4 py-2"
+                                                    data-sitekey="6LeSOMYqAAAAAN28MBDLyxJYqjCaurDO5T7uAbMo"
+                                                    data-callback='onSubmit' data-action='submit'>Submit
                                                 </button>
                                             </div>
-                                            
+
 
 
                                         </div>
